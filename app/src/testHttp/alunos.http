@@ -1,0 +1,14 @@
+@baseUrl = https://8080-igorgalvao1-apisring-06wbz1k5a8l.ws-us115.gitpod.io
+
+###
+
+GET {{baseUrl}}/alunos
+
+###
+
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+    "nome": "Igor Galvão"
+}
